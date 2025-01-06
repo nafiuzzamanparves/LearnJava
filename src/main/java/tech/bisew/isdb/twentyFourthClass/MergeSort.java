@@ -4,8 +4,14 @@ import java.util.Arrays;
 
 public class MergeSort {
 
-    // Time complexity O(n logn)
+    // Time complexity O(n log(n))
     public static void mergeSort(int[] list) {
+        // {2, 3, 2, 5, 6, 1, -2, 3, 14, 12};
+        // {2, 3, 2, 5, 6};
+        // {2, 3};
+        // {2, 5, 6}
+        // {2}
+        // {5, 6}
         if (list.length > 1) {
             // Merge sort the first half
             int[] firstHalf = new int[list.length / 2];

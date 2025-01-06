@@ -1,7 +1,7 @@
 package tech.bisew.isdb.tenthClass;
 
-import tenthClass.interfaceTest.FauInterface;
-import tenthClass.interfaceTest.VehicleInterface;
+import tech.bisew.isdb.tenthClass.interfaceTest.FauInterface;
+import tech.bisew.isdb.tenthClass.interfaceTest.VehicleInterface;
 
 public abstract class Vehicle implements VehicleInterface, FauInterface {
 

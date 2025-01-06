@@ -1,6 +1,6 @@
 package tech.bisew.isdb.seventhClass;
 
-import eighthClass.SimpleCircleZakaria;
+import tech.bisew.isdb.eighthClass.SimpleCircleZakaria;
 
 public class CallSimpleCircleZakaria {
     public static void main(String[] args) {

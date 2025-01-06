@@ -1,6 +1,6 @@
 package tech.bisew.isdb.tenthClass;
 
-import tenthClass.interfaceTest.VehicleInterface;
+import tech.bisew.isdb.tenthClass.interfaceTest.VehicleInterface;
 
 public class TestExtends {
     public static void main(String[] args) {
@@ -39,7 +39,7 @@ public class TestExtends {
 
         int a1 = (int) a;
         int b1 = (int) b;
-        
+
         System.out.println(a1);
         System.out.println(b1);
     }

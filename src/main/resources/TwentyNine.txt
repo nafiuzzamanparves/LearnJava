@@ -1,0 +1,16 @@
+1. Bank Account Management System
+•	OOP Concepts:
+    o	Classes: BankAccount, SavingsAccount, CurrentAccount (Inheritance)
+    o	Encapsulation: Private attributes (account number, balance, etc.) with public getters and setters
+    o	Polymorphism: Overridden methods for deposit, withdrawal, and calculating interest in subclasses
+•	Exception Handling:
+    o	InsufficientFundsException to be thrown when withdrawal exceeds balance
+    o	InvalidAmountException to be thrown for invalid deposit/withdrawal amounts (e.g., negative values)
+•	File I/O:
+    o	Read initial account information from a file (e.g., CSV)
+    o	Write updated account information to a file after transactions
+
+id,type,balance,interest
+1001,Savings,1000.00,0.02
+1002,Current,2000.00,5.00
+1003,Savings,5000.00,0.015

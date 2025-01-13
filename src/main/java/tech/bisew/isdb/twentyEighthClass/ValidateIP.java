@@ -16,6 +16,7 @@ public class ValidateIP {
             System.out.println(ipAddress + " is a valid IP address.");
         } else {
             System.out.println(ipAddress + " is not a valid IP address.");
+            System.err.print("Error");
         }
     }
 }
